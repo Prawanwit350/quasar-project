@@ -205,3 +205,10 @@ export default defineConfig((/* ctx */) => {
     }
   }
 })
+return {
+  framework: {
+    plugins: [
+      'Notify'
+    ],
+  }
+}
